@@ -5,6 +5,8 @@
 
 body{ 
     background-image:url("../images/desktop.png");
+    background-color: rgba(255,0,0,0.5);
+   
 }
 
 .container{
@@ -21,12 +23,13 @@ body{
 
 .part1{
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 3rem;
     padding: 5rem 1rem 2rem 1rem;
     align-items: center;
 }
 
 .part2{
+    margin-top: 2rem;
     text-align: center;
     padding: 2rem 8rem 2rem 8rem;
     align-items: center;
@@ -69,7 +72,7 @@ background: hsl(154, 79%, 63%);
 
 .formulario{
     width: 100%;
-    background: #817f7f;
+    background: #fff;
     padding: 1rem 1rem 3rem 1rem;
     border-radius: 1rem;
 }
@@ -79,16 +82,25 @@ footer{
 }
 
 h1{
+    margin-left: 1rem;
     text-align: center;
     width: 80%;
+    font-weight: bold;
+    color: #fff;
 }
 
 p{
     text-align: left;
+    color: #fff;
+}
+
+::placeholder{
+    font-weight: bold;
+    font-size: 10px;
 }
 
 a{
-    color: hsl(0, 92%, 42%);
+    color: hsl(0, 91%, 46%);
     font-weight: bold;
     text-decoration: none;
 }
