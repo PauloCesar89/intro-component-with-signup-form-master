@@ -3,36 +3,64 @@
     padding: 0;
 }
 
-body{
-    
+body{ 
     background-image:url("../images/desktop.png");
 }
 
 .container{
     font-family: "Poppins", "sans-serif";
     font-size: 16px;
-    border: 1px solid yellow;
 }
 
-.col-sm-12{
+/*.col-sm-12{
     text-align: center;
     padding: 5rem 8rem 2rem 8rem;
     align-items: center;
     border: 1px solid green;
+}*/
+
+.part1{
+    text-align: center;
+    margin-top: 2rem;
+    padding: 5rem 1rem 2rem 1rem;
+    align-items: center;
 }
 
-.btn{
+.part2{
+    text-align: center;
+    padding: 2rem 8rem 2rem 8rem;
+    align-items: center;
+}
+
+.botao{
+    padding: 0.5rem;
+    margin-top: 0.5rem;
     margin-bottom: 2rem;
     width: 100%;
     background: hsl(248, 32%, 49%);
     color: #fff;
+    border-radius: 0.5rem;
+    border: none;
 }
+
+.botao:hover{
+    background: hsl(248, 54%, 63%);
+}
+
 
 .submit{
     width: 100%;
     background: hsl(154, 59%, 51%);
     color: #fff;
-    
+    border: none;
+}
+
+.submit:hover{
+background: hsl(154, 79%, 63%);
+}
+
+.part2 button :hover{
+    background: hsl(249, 10%, 26%);
 }
 
 #text-right{
@@ -40,6 +68,7 @@ body{
 }
 
 .formulario{
+    width: 100%;
     background: #817f7f;
     padding: 1rem 1rem 3rem 1rem;
     border-radius: 1rem;
@@ -49,6 +78,37 @@ footer{
     font-size: 10px;
 }
 
+h1{
+    text-align: center;
+    width: 80%;
+}
+
+p{
+    text-align: left;
+}
+
+a{
+    color: hsl(0, 92%, 42%);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 500px){
+
+    h1{
+        text-align: center;
+        margin-left: 3rem;
+    }
+    
+    p{
+        text-align: left;
+        padding-left: 1.5rem;
+        width: 100%;
+    }
+
+}
+
+/*
 @media screen and (max-width: 375px){
     .col-md-7{
         padding: 0 5rem;
@@ -64,4 +124,4 @@ footer{
     #text-right{
         padding: 1rem 5rem;
     }
-}
+}*/
