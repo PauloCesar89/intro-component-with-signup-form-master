@@ -110,6 +110,28 @@ span{
     font-size: 15px;
 }
 
+.input-container{
+    position: relative;
+    display: block;
+}
+i{
+    position: absolute; 
+    top: 15%;
+    left: 90%;
+    
+}
+
+small{
+    position: relative; 
+    top: 15%;
+    left: 25%;
+    font-size: 10px;
+    font-style: italic;
+    color: hsl(0, 91%, 46%);
+}
+
+
+
 @media screen and (max-width: 500px){
 
     h1{
@@ -141,4 +163,15 @@ span{
     #text-right{
         padding: 1rem 5rem;
     }
+
+
+
+        font-size: 10px;
+    font-style: italic;
+    color: hsl(0, 91%, 46%);
+    margin-bottom: 10px;
+    width: 50%;
+    display: flex;
+    width: 40%;
+    margin-left: 230px;
 }*/
