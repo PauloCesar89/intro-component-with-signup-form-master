@@ -24,6 +24,9 @@ Para fazer o deploy desse projeto rode
 ![WhatsApp Image 2023-02-20 at 03 39 34](https://user-images.githubusercontent.com/124107620/220033862-fbd13c4b-8eea-4f03-af2d-2451f66a2baa.jpeg)
 
 
+![WhatsApp Image 2023-02-20 at 03 40 11](https://user-images.githubusercontent.com/124107620/220034068-6ce86fa4-b64a-4822-b66f-a072993511ab.jpeg)
+
+
 ## Referência
 
  - [https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1/hub)
