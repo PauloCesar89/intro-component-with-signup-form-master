@@ -1,6 +1,6 @@
 # Componente de validação de formulário
 
-Usuário ao digitar os danos nos inputs do formulário e envia-los tem a informação de que se todos os campos foram preenchidos, caso algum não tenha sido preenchido será retornado uma mensagem de erro abaixo do campo que não foi preenchido, junto com um ícone de exclamação dentro do input e alterando a cor da borda para a cor vermelho indicando alerta, no caso do e-mail se o mesmo além de não ser preenchido for colocado um formato de e-mail inválido também será retornado uma mensagem de erro e será exibido um exemplo de e-mail valido (Email@exemplo.com).O preenchimento correto exibirá apenas um ícone de check dentro do input e alterando a cor da borda para verde indicando que o campo está preenchido e que está no formato correto no caso do e-mail.
+Usuário ao digitar os dados nos inputs do formulário e envia-los tem a informação de que se todos os campos foram preenchidos, caso algum não tenha sido preenchido será retornado uma mensagem de erro abaixo do campo que não foi preenchido, junto com um ícone de exclamação dentro do input e alterando a cor da borda para a cor vermelho indicando alerta, no caso do e-mail se o mesmo além de não ser preenchido for colocado um formato de e-mail inválido também será retornado uma mensagem de erro e será exibido um exemplo de e-mail valido (Email@exemplo.com).O preenchimento correto exibirá apenas um ícone de check dentro do input e alterando a cor da borda para verde indicando que o campo está preenchido e que está no formato correto no caso do e-mail.
 
 
 ## Funcionalidades
